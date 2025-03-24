@@ -21,6 +21,7 @@ $result = $conn->query("SELECT * FROM sinhvien");
 <body>
     <h2>Danh sách sinh viên</h2>
     <p>Xin chào, <strong><?= $_SESSION['MaSV'] ?></strong> | <a href="logout.php">Đăng xuất</a></p>
+    <a href="hocphan.php" class="btn btn-primary">Đăng Ký Học Phần</a>
     <a href="create.php">Thêm sinh viên</a>
     <table border="1">
         <tr>
